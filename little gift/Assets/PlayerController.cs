@@ -6,7 +6,7 @@ public class PlayerController : MonoBehaviour
 {
     public float maxSpeed;
     public float normalSpeed = 3.0f;
-    public float sprintSpeed = 7.0f;
+    public float sprintSpeed = 5.0f;
 
     float rotation = 0.0f;
     float camRotation = 0.0f;
@@ -18,7 +18,7 @@ public class PlayerController : MonoBehaviour
     bool isOnGround;
     public GameObject groundChecker;
     public LayerMask groundLayer;
-    public float jumpforce = 300.0f;
+    public float jumpforce = 250.0f;
 
     void Start()
     {
