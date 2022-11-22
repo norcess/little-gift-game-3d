@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public AudioClip backgroundMusic;
     public float maxSpeed;
     public float normalSpeed = 3.0f;
     public float sprintSpeed = 5.0f;
