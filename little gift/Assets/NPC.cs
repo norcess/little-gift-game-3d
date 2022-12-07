@@ -9,7 +9,7 @@ public class NPC : MonoBehaviour
    public Text dialogueText;
    public string[] dialogue;
    private int index;
-
+   
    public float wordSpeed;
    public bool playerIsClose;
    
@@ -28,6 +28,7 @@ public class NPC : MonoBehaviour
               
             }
         }
+
     }
     public void zeroText()
     {
@@ -54,6 +55,8 @@ public class NPC : MonoBehaviour
     }
     public void NextLine()
     {
+
+        
         if(index < dialogue.Length - 1)
         {
             index++;
